@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.calculator{
+    padding: 20px;
+    border-radius: 16px;
+    background: #e3e2e2;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+     rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+
+input{
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background:#00ced126;
+    ;
+    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px -20px 9px -17px inset,
+    rgba(0, 0, 0, 0.15) 20px 0px 9px -17px inset,
+    rgba(0, 0, 0, 0.15) -20px 0px 9px -17px inset,
+    rgba(0, 0, 0, 0.15) 0px 20px 9px -17px inset;
+}
+
+input::placeholder{
+    color: black;
+}
+
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: lightsteelblue;
+    /* color: #ffffff; */
+    font-weight: 700;
+    color: #1f1f1f;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 1px 0px, rgba(0, 0, 0, 0.3) 0px -3px 15px -5px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow:rgba(0, 0, 0, 0.4) 2px 2px 4px -2px inset;
+}
+
+.equalBtn{
+    background-color: lightskyblue;
+}
+
+.operator{
+    color: ghostwhite;
+}
